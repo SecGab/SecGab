@@ -1,0 +1,98 @@
+body{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* #id_table{
+    
+} */
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    min-width: 1000px; /* Set a minimum height for the table */
+    max-width: 100%; /* Ensure the table doesn't exceed its container */
+  
+   
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#columns{
+    background-color:#86aaf9;
+}
+.checkbox {
+    transform: scale(1.5); /* Make the checkbox larger for better visibility */
+  }
+#id_table.IP.Table{
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+#text_ip{
+    width: 100%;
+    min-height: 150px;
+   
+    min-width: 1000px; /* Set a minimum height for the table */
+    max-width: 100%; /* Ensure the table doesn't exceed its container */
+    resize: both;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: height 0.2s;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.div_information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stylish-button {
+    margin:25px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.stylish-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.stylish-button:active {
+    background-color: #004080;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+}
+/* tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    margin: 0 auto; /* Center the container horizontally */
+}

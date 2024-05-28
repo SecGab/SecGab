@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Scanner</title>
+  </head>
+  <body>
+    <div class="IP Table" id="id_table">
+      <div id="popup" class="popup">
+        <div class="div_information">
+          <textarea
+            id="text_ip"
+            oninput="adjustHeight(this)"
+            placeholder="please separate ip addresses via new line"
+          ></textarea>
+          <div class="buttons">
+            <button class="stylish-button" id="addButton">Submit</button>
+            <button class="stylish-button" id="clearButton">Clear</button>
+          </div>
+        </div>
+      </div>
+      <table id="ip_Table">
+        <tr>
+          <th id="columns">No</th>
+          <th id="columns">IP</th>
+          <th id="columns">IP Version</th>
+          <th id="columns">Virus Total</th>
+          <th id="columns">IBM X-Force</th>
+          <th id="columns">Check Box</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
